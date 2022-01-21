@@ -44,7 +44,7 @@
   }
 
   function initMap(container, latlng) {
-    const m = L.map(container).setView(latlng, 17);
+    const m = L.map(container).setView(latlng, 16);
 
     const settings = {
       maxZoom: 20,
@@ -129,15 +129,15 @@
     left: 0;
     top: 0;
     z-index: 999;
-    margin: 0.5rem;
-    padding: 0.8rem;
+    margin: 0.2rem;
+    padding: 0.5rem;
     background: white;
     border-radius: 2px;
     box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
-    font-size: 0.8rem;
   }
 
   #details p{
 	  margin: 0;
+    font-size: 0.55rem;
   }
 </style>
